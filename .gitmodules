@@ -1,0 +1,3 @@
+[submodule "cns"]
+	path = cns
+	url = git@github.com:systems-cs-pub-ro/cns.git
