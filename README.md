@@ -17,3 +17,9 @@ Only 2 tasks are included because the rest are either stupid or uninteresting.
 ### Lab 3 - Buffer Overflow
 A few scenarios where buffer overflows could be exploited.
 Basically IOCLA.
+
+
+### Lab 4 - Shellcodes I
+Tutorials and introductory shellcodes tasks.
+Meant to be solved by manually writing shellcodes...
+`pnwtools` go brrrrrr.
