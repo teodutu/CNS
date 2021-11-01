@@ -23,3 +23,12 @@ Basically IOCLA.
 Tutorials and introductory shellcodes tasks.
 Meant to be solved by manually writing shellcodes...
 `pnwtools` go brrrrrr.
+
+
+
+## Homework
+### Assignment 1
+Honestly, the tasks are disgusting as all of them bar one (`crypto`) involve reversing and patching binaries.
+No overflows, no shellcodes, nothing interesting.
+And `crypto` is only cool because we're supposed to figure out the cipher is RC4.
+There's still hope for better 2nd and 3rd assignments.
