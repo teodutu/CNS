@@ -19,7 +19,13 @@ A few scenarios where buffer overflows could be exploited.
 Basically IOCLA.
 
 
-### Lab 4 - Shellcodes I
+### Lab 4 - Shellcodes 1
 Tutorials and introductory shellcodes tasks.
 Meant to be solved by manually writing shellcodes...
 `pnwtools` go brrrrrr.
+
+
+### Lab 5 - Shellcodes 2
+Only 2 tasks:
+- an `env`-based exploit, where the shellcode is stored in an environment variable;
+- a disgusting command interpreter where you leak the address of a buffer and then use a 2-stage attack to open a shellcode.
