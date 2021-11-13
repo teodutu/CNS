@@ -29,3 +29,9 @@ Meant to be solved by manually writing shellcodes...
 Only 2 tasks:
 - an `env`-based exploit, where the shellcode is stored in an environment variable;
 - a disgusting command interpreter where you leak the address of a buffer and then use a 2-stage attack to open a shellcode.
+
+
+### Lab 6 - Exploit Protection Mechanisms
+This lab is about bypassing ASLR on 32-bit binaries by bruteforce (the good old way).
+The lab is also about bypassing stack canaries given an unsanitised `read`, whose buffer is `printf`'d without a trailing `\0`.
+This `printf` method is also used to leak the address of the environment variable `SHELLCODE`, which is used to pass ... well, a shellcode to the binary.
