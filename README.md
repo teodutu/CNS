@@ -35,3 +35,12 @@ Only 2 tasks:
 This lab is about bypassing ASLR on 32-bit binaries by bruteforce (the good old way).
 The lab is also about bypassing stack canaries given an unsanitised `read`, whose buffer is `printf`'d without a trailing `\0`.
 This `printf` method is also used to leak the address of the environment variable `SHELLCODE`, which is used to pass ... well, a shellcode to the binary.
+
+
+
+## Homework
+### Assignment 1
+Honestly, the tasks are disgusting as all of them bar one (`crypto`) involve reversing and patching binaries.
+No overflows, no shellcodes, nothing interesting.
+And `crypto` is only cool because we're supposed to figure out the cipher is RC4.
+There's still hope for better 2nd and 3rd assignments.
