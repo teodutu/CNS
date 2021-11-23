@@ -35,3 +35,11 @@ Only 2 tasks:
 This lab is about bypassing ASLR on 32-bit binaries by bruteforce (the good old way).
 The lab is also about bypassing stack canaries given an unsanitised `read`, whose buffer is `printf`'d without a trailing `\0`.
 This `printf` method is also used to leak the address of the environment variable `SHELLCODE`, which is used to pass ... well, a shellcode to the binary.
+
+
+
+### Assignment 2
+A few rather easy reversing and pwn challenges.
+The pwn challenges are based on shellcodes.
+The only interesting one is [Strict Shellcode](./Homework/Assignment-2/strict_shellcode), where the shellcode decrypts it's `execve("/bin/sh")` part, before executing it, in order to avoid sanitisation.
+The other challenges suck.
