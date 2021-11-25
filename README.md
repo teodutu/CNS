@@ -37,6 +37,11 @@ The lab is also about bypassing stack canaries given an unsanitised `read`, whos
 This `printf` method is also used to leak the address of the environment variable `SHELLCODE`, which is used to pass ... well, a shellcode to the binary.
 
 
+### Lab 7 - String attacks
+Tasks 0-3 are decent and are either simple information leaks or `%n` arbitrary memory writes.
+Task 4 is a disgusting mess, which _should_ work in theory, but doesn't in practice.
+It's also hard to debug, because the bug happens somewhere inside `printf` (it tries to perform a memory write at an incorrect address...).
+
 
 ## Homework
 ### Assignment 1

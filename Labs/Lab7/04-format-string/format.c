@@ -15,6 +15,7 @@ my_evil_func(void)
 int
 main(int argc, char *argv[])
 {
+	getchar();
 	printf(argv[1]);
 	puts("\nThis is the most useless and insecure program!\n");
 	return 0;
