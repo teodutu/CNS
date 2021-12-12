@@ -46,6 +46,16 @@ It's also hard to debug, because the bug happens somewhere inside `printf` (it t
 ### Lab 8 - ROP
 ROPs are used to chain function calls and to perform a `ret-2-libc` attack in order to call `read` for reading a shellcode into a data section buffer, then run `mprotect(R | X)` on that buffer, before finally jumping into it.
 
+
+### Lab 9 - ROP + Stack Pivoting
+Theoretically, this lab is about stack pivoting.
+However, neither task even requires ROPs.
+The functions can be exploited by jumping inside them, after the parameters are checked.
+Obviously, since not even ROPs are necessary to solve the challenges, stack pivoting is even more overkill.
+Not cool.
+
+
+
 ## Homework
 ### Assignment 1
 Honestly, the tasks are disgusting as all of them bar one (`crypto`) involve reversing and patching binaries.
