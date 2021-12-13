@@ -62,3 +62,10 @@ Honestly, the tasks are disgusting as all of them bar one (`crypto`) involve rev
 No overflows, no shellcodes, nothing interesting.
 And `crypto` is only cool because we're supposed to figure out the cipher is RC4.
 There's still hope for better 2nd and 3rd assignments.
+
+
+### Assignment 2
+A few rather easy reversing and pwn challenges.
+The pwn challenges are based on shellcodes.
+The only interesting one is [Strict Shellcode](./Homework/Assignment-2/strict_shellcode), where the shellcode decrypts it's `execve("/bin/sh")` part, before executing it, in order to avoid sanitisation.
+The other challenges suck.
