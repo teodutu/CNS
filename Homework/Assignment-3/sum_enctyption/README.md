@@ -18,7 +18,7 @@ Leaking the canary is rather simple: we just tell the program that `num` is 18, 
 Now we need to guess this random number.
 For this, we can make our own program which prints a 64-bit random number that's genrated in the same way in which `sum_encryption` does it.
 The program that does this is [`get_rand.c`](./get_rand.c).
-The trick here is to start both the remote process and the local one **at roughly** the same second since Epoch.
+The trick here is to start both the remote process and the local one the same second since Epoch.
 The reason for this is that `time` outputs the time in seconds since Epoch.
 If we manage to call `srand` with the same seed twice, it will generate the same random numbers, since it's merely a PRG.
 We use the random number printed by `get_rand` to xor the output received from the server and obtain the canary.
