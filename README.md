@@ -55,6 +55,11 @@ Obviously, since not even ROPs are necessary to solve the challenges, stack pivo
 Not cool.
 
 
+### Lab 10 - Use After Free
+The name of the lab says it all.
+What's interesting in this lab is that it also explains how `virtual` functions work in C++ and requires overwriting the `vptr` in C++ classes.
+
+
 
 ## Homework
 ### Assignment 1
