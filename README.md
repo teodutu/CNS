@@ -60,6 +60,15 @@ The name of the lab says it all.
 What's interesting in this lab is that it also explains how `virtual` functions work in C++ and requires overwriting the `vptr` in C++ classes.
 
 
+### Lab 11 - CTF
+This lab is a recap in the shape of a CTF:
+- basic ASLR bypass: [libc-master](./Labs/Lab11/libc-master/)
+- string format vulnerability: [strudel](./Labs/Lab11/strudel/)
+- use after free: [heap-the-road](./Labs/Lab11/heap-the-road/)
+- don't know (yet): [strudel](./Labs/Lab11/self-sabotage/)
+
+Due to lots of things to do in the last week of the semester, I was only able to complete the first 2 challenges :(.
+
 
 ## Homework
 ### Assignment 1
