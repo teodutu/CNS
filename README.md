@@ -83,3 +83,10 @@ A few rather easy reversing and pwn challenges.
 The pwn challenges are based on shellcodes.
 The only interesting one is [Strict Shellcode](./Homework/Assignment-2/strict_shellcode), where the shellcode decrypts it's `execve("/bin/sh")` part, before executing it, in order to avoid sanitisation.
 The other challenges suck.
+
+
+### Assignment 3
+The assignment is mostly about ROPs.
+The tasks get rather boring and repetitive.
+Almost all use the `puts@plt(puts@got)` trick to find the address of `system` in libc.
+There is one interesting task, which I call _GOT Poisoning_: [memory_writer](./Homework/Assignment-3/memory_writer).
